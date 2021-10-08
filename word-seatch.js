@@ -10,6 +10,7 @@
     const q = word.split('');
     for (const row in board) {
         for(const col in board[row]){
+            //itearate until we find the first character coincidence in the grid
             if(board[row][col]==q[0]){
                 const r= checkRecursive(board,q,Number(row),Number(col),new Set());
                 if(r) return true
