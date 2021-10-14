@@ -2,7 +2,7 @@
  * @param {character[][]} board
  * @param {string} word
  * @return {boolean}
- *@link https://leetcode.com/problems/word-search/
+ *@link https://leetcode.com/problems/word-search2/
  */
 
 
